@@ -9,10 +9,10 @@ public class DayApp {
        Day day5 = Day.THURSDAY;
        Day day6 = Day.FRIDAY;
        Day day7 = Day.SATURDAY;
-        /*Day[] days = Day.values();
+        Day[] days = Day.values();
         for (int i = 0; i <= days.length; i++) {
-            return printDay(days);
-        }*/
+            printDay(days[i]);
+        }
         printDay(day1);
         printDay(day2);
         printDay(day3);
